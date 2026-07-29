@@ -1,0 +1,5 @@
+id,name,brand,category,image,shortDescription,price,priceLevel,skinTypes,hairTypes,concerns,texture,colorType,tags,productUrl,available
+sc-101,SunCare Light Fluid,SkinLab,sunscreen,assets/images/products/sc-101.webp,فلوئید سبک و بدون رنگ مخصوص پوست چرب,320000,economy,oily|combination,,oil-control,light,untinted,SPF50|non-comedogenic,https://example.com/product/sc-101,true
+cl-101,Soft Clean Foam,SkinLab,cleanser,assets/images/products/cl-101.webp,فوم شستشوی ملایم برای پوست چرب,210000,economy,oily|combination,,acne-active,foam,,oil-control,https://example.com/product/cl-101,true
+mo-101,Aqua Balance Gel,NovaDerm,moisturizer,assets/images/products/mo-101.webp,ژل آبرسان سبک مخصوص پوست چرب,350000,economy,oily|combination,,mild-dryness|oil-control,gel-light,,hydration|light,https://example.com/product/mo-101,true
+sh-101,Repair Hair Shampoo,NovaDerm,shampoo,assets/images/products/sh-101.webp,شامپوی ترمیم‌کننده موی رنگ‌شده,280000,economy,,damaged|color-treated|dry,color-care,,,color-care|repair,https://example.com/product/sh-101,true
