@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>سایبو | مشاور خرید هوشمند</title>
+  <meta name="description" content="مشاور خرید هوشمند سایبو — با چند سؤال کوتاه، مناسب‌ترین محصول آرایشی و بهداشتی را پیدا کن." />
+  <meta name="color-scheme" content="light" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <img id="brand-logo" src="assets/images/logo/logo.svg" alt="سایبو" class="brand-logo" />
+        <div class="brand-text">
+          <span id="brand-name" class="brand-name">سایبو</span>
+          <span class="brand-tagline">مشاور خرید هوشمند</span>
+        </div>
+      </div>
+      <button id="restart-top-btn" type="button" class="restart-top-btn" aria-label="شروع مجدد گفتگو">
+        شروع مجدد
+      </button>
+    </header>
+
+    <div id="progress-wrap" class="progress-wrap hidden" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="progress-track">
+        <div id="progress-bar-fill" class="progress-bar-fill"></div>
+      </div>
+      <span id="progress-label" class="progress-label"></span>
+    </div>
+
+    <main id="chat-log" class="chat-log" role="log" aria-live="polite" aria-relevant="additions"></main>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/recommendation-engine.js"></script>
+  <script src="assets/js/chat-ui.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
