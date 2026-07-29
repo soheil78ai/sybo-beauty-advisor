@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="تصویر محصول">
+  <defs>
+    <linearGradient id="g_cl5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(201,68%,50%)"/>
+      <stop offset="100%" stop-color="hsl(213,68%,32%)"/>
+    </linearGradient>
+    <radialGradient id="h_cl5" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="soft_cl5" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur"/>
+      <feOffset in="blur" dx="0" dy="10" result="offsetBlur"/>
+      <feComponentTransfer in="offsetBlur" result="shadow">
+        <feFuncA type="linear" slope="0.35"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="320" height="320" rx="40" fill="url(#g_cl5)"/>
+  <rect width="320" height="320" rx="40" fill="url(#h_cl5)"/>
+
+  <ellipse cx="160" cy="266" rx="72" ry="14" fill="rgba(0,0,0,0.16)"/>
+
+  <g filter="url(#soft_cl5)">
+    <path d="M136.0,126 h48 a22,22 0 0 1 22,22 v60 a46.0,28 0 0 1 -92,0 v-60 a22,22 0 0 1 22,-22 z" fill="rgba(255,255,255,0.94)"/><rect x="141.6" y="100" width="36.800000000000004" height="30" rx="8" fill="#5FD3C4"/>
+  </g>
+
+  <circle cx="146" cy="156" r="15" fill="rgba(255,255,255,0.85)" opacity="0.92"/><circle cx="176" cy="140" r="10" fill="rgba(255,255,255,0.85)" opacity="0.782"/><circle cx="168" cy="168" r="7" fill="rgba(255,255,255,0.85)" opacity="0.644"/>
+
+  <circle cx="272" cy="52" r="22" fill="rgba(255,255,255,0.22)"/>
+  <text x="272" y="60" font-family="Vazirmatn, Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700"
+        fill="#ffffff" text-anchor="middle">E</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320" role="img" aria-label="تصویر محصول">
+  <defs>
+    <linearGradient id="g_cl3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="hsl(195,68%,54%)"/>
+      <stop offset="100%" stop-color="hsl(207,68%,36%)"/>
+    </linearGradient>
+    <radialGradient id="h_cl3" cx="50%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.35)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </radialGradient>
+    <filter id="soft_cl3" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="7" result="blur"/>
+      <feOffset in="blur" dx="0" dy="10" result="offsetBlur"/>
+      <feComponentTransfer in="offsetBlur" result="shadow">
+        <feFuncA type="linear" slope="0.35"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="shadow"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="320" height="320" rx="40" fill="url(#g_cl3)"/>
+  <rect width="320" height="320" rx="40" fill="url(#h_cl3)"/>
+
+  <ellipse cx="160" cy="266" rx="72" ry="14" fill="rgba(0,0,0,0.16)"/>
+
+  <g filter="url(#soft_cl3)">
+    <rect x="114.0" y="138.0" width="92" height="108.0" rx="22" fill="rgba(255,255,255,0.94)"/><rect x="110.0" y="116.0" width="100" height="34" rx="14" fill="#5FD3C4"/><rect x="124.0" y="154.0" width="72" height="8" rx="4" fill="rgba(255,255,255,0.55)"/>
+  </g>
+
+  <circle cx="146" cy="156" r="15" fill="rgba(255,255,255,0.85)" opacity="0.92"/><circle cx="176" cy="140" r="10" fill="rgba(255,255,255,0.85)" opacity="0.782"/><circle cx="168" cy="168" r="7" fill="rgba(255,255,255,0.85)" opacity="0.644"/>
+
+  <circle cx="272" cy="52" r="22" fill="rgba(255,255,255,0.22)"/>
+  <text x="272" y="60" font-family="Vazirmatn, Segoe UI, Tahoma, sans-serif" font-size="20" font-weight="700"
+        fill="#ffffff" text-anchor="middle">P</text>
+</svg>
