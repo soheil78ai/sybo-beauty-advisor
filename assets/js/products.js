@@ -25,7 +25,7 @@ window.PRODUCTS = [
     name: "SunCare Light Fluid",
     brand: "SkinLab",
     category: "sunscreen",
-    image: "assets/images/products/sc-1.webp",
+    image: "assets/images/products/sc-1.svg",
     shortDescription: "فلوئید سبک و زودجذب، بدون رنگ، مخصوص پوست چرب و مستعد جوش",
     fullDescription:
       "فلوئید ضدآفتاب با بافت فوق‌العاده سبک که به‌سرعت جذب پوست می‌شود و احساس چربی روی پوست باقی نمی‌گذارد. مناسب استفاده روزانه زیر آرایش.",
@@ -46,7 +46,7 @@ window.PRODUCTS = [
     name: "DermaShield Colorless",
     brand: "NovaDerm",
     category: "sunscreen",
-    image: "assets/images/products/sc-2.webp",
+    image: "assets/images/products/sc-2.svg",
     shortDescription: "کرم ضدآفتاب بدون رنگ با بافت مرطوب‌کننده، مناسب پوست خشک و حساس",
     fullDescription:
       "فرمول غنی‌شده با سرامید که ضمن محافظت در برابر UVA/UVB، رطوبت پوست را نیز حفظ می‌کند. بدون رایحه و مناسب پوست‌های حساس.",
@@ -67,7 +67,7 @@ window.PRODUCTS = [
     name: "GlowTone Tinted Cream",
     brand: "Aurelia",
     category: "sunscreen",
-    image: "assets/images/products/sc-3.webp",
+    image: "assets/images/products/sc-3.svg",
     shortDescription: "ضدآفتاب رنگی با پوشش طبیعی، یکنواخت‌کننده رنگ پوست",
     fullDescription:
       "علاوه بر محافظت آفتابی، رنگدانه‌های این محصول لک و ناهمواری رنگ پوست را پوشش می‌دهند و درخشندگی طبیعی به پوست می‌بخشند.",
@@ -88,7 +88,7 @@ window.PRODUCTS = [
     name: "PureBase Oil-Free Sun Gel",
     brand: "ClarUS",
     category: "sunscreen",
-    image: "assets/images/products/sc-4.webp",
+    image: "assets/images/products/sc-4.svg",
     shortDescription: "ژل ضدآفتاب فاقد چربی، مخصوص پوست چرب و جوش‌دار",
     fullDescription:
       "بافت ژلی کاملاً فاقد چربی که منافذ پوست را مسدود نمی‌کند. گزینه‌ای ایده‌آل برای پوست‌های چرب و مستعد آکنه در فصل گرم.",
@@ -109,7 +109,7 @@ window.PRODUCTS = [
     name: "LuxeSun Radiance Tint",
     brand: "Elyth",
     category: "sunscreen",
-    image: "assets/images/products/sc-5.webp",
+    image: "assets/images/products/sc-5.svg",
     shortDescription: "ضدآفتاب رنگی لوکس با خاصیت ضدپیری، مناسب همه انواع پوست",
     fullDescription:
       "محصولی پریمیوم با ترکیب آنتی‌اکسیدان‌های قوی، ضمن محافظت آفتابی به کاهش چین‌وچروک و درخشندگی پوست کمک می‌کند.",
@@ -132,7 +132,7 @@ window.PRODUCTS = [
     name: "Soft Clean Foam",
     brand: "SkinLab",
     category: "cleanser",
-    image: "assets/images/products/cl-1.webp",
+    image: "assets/images/products/cl-1.svg",
     shortDescription: "فوم شستشوی ملایم، مناسب پوست چرب با جوش‌های فعال",
     fullDescription:
       "فوم نرم که چربی اضافه و آلودگی را بدون خشک‌کردن پوست پاک می‌کند. مناسب استفاده روزانه صبح و شب.",
@@ -152,7 +152,7 @@ window.PRODUCTS = [
     name: "Aqua Gentle Gel Wash",
     brand: "NovaDerm",
     category: "cleanser",
-    image: "assets/images/products/cl-2.webp",
+    image: "assets/images/products/cl-2.svg",
     shortDescription: "ژل شستشوی ملایم برای استفاده روزمره، مناسب اکثر پوست‌ها",
     fullDescription:
       "فرمول با pH متعادل که پوست را بدون کشیدگی یا خشکی پاک‌سازی می‌کند. گزینه‌ای مطمئن برای شست‌وشوی روزانه.",
@@ -172,7 +172,7 @@ window.PRODUCTS = [
     name: "CalmTouch Cream Cleanser",
     brand: "PureBase",
     category: "cleanser",
-    image: "assets/images/products/cl-3.webp",
+    image: "assets/images/products/cl-3.svg",
     shortDescription: "شوینده کرمی آرام‌بخش، مخصوص پوست حساس و خشک",
     fullDescription:
       "بافت کرمی و بدون کف، مخصوص پوست‌های حساس و مستعد قرمزی. فاقد رایحه و مواد محرک.",
@@ -192,7 +192,7 @@ window.PRODUCTS = [
     name: "ClearZone Acne Foam",
     brand: "ClarUS",
     category: "cleanser",
-    image: "assets/images/products/cl-4.webp",
+    image: "assets/images/products/cl-4.svg",
     shortDescription: "فوم ضدجوش با اسید سالیسیلیک، مناسب پوست چرب و حساس به جوش",
     fullDescription:
       "با کمک اسید سالیسیلیک به پاکسازی عمقی منافذ و کاهش جوش‌های فعال کمک می‌کند. مناسب پوست چرب و مستعد آکنه.",
@@ -212,7 +212,7 @@ window.PRODUCTS = [
     name: "Elyth Silk Cleansing Gel",
     brand: "Elyth",
     category: "cleanser",
-    image: "assets/images/products/cl-5.webp",
+    image: "assets/images/products/cl-5.svg",
     shortDescription: "ژل شستشوی لوکس با احساس ابریشمی، مناسب همه انواع پوست",
     fullDescription:
       "فرمولاسیون پریمیوم با عصاره‌های گیاهی که علاوه بر پاکسازی، حس نرمی و لطافت به پوست می‌بخشد.",
@@ -234,7 +234,7 @@ window.PRODUCTS = [
     name: "Aqua Balance Gel",
     brand: "NovaDerm",
     category: "moisturizer",
-    image: "assets/images/products/mo-1.webp",
+    image: "assets/images/products/mo-1.svg",
     shortDescription: "ژل آبرسان سبک، مناسب پوست چرب و مختلط با کم‌آبی خفیف",
     fullDescription:
       "بافت ژلی سبک که به‌سرعت جذب می‌شود و بدون ایجاد چربی اضافه، آبرسانی مورد نیاز پوست چرب را تامین می‌کند.",
@@ -254,7 +254,7 @@ window.PRODUCTS = [
     name: "RichRepair Night Cream",
     brand: "PureBase",
     category: "moisturizer",
-    image: "assets/images/products/mo-2.webp",
+    image: "assets/images/products/mo-2.svg",
     shortDescription: "کرم غنی شبانه، مخصوص پوست خیلی خشک و حساس",
     fullDescription:
       "کرمی غنی و ترمیم‌کننده که خشکی و کشیدگی شدید پوست را تسکین می‌دهد. مناسب استفاده شبانه برای پوست خشک و حساس.",
@@ -274,7 +274,7 @@ window.PRODUCTS = [
     name: "PureBase Oil-Free Hydrator",
     brand: "ClarUS",
     category: "moisturizer",
-    image: "assets/images/products/mo-3.webp",
+    image: "assets/images/products/mo-3.svg",
     shortDescription: "مرطوب‌کننده فاقد چربی، مناسب پوست چرب کم‌آب",
     fullDescription:
       "آبرسانی بدون سنگینی برای پوست‌هایی که چرب هستند اما نیاز به رطوبت دارند؛ بدون انسداد منافذ.",
@@ -294,7 +294,7 @@ window.PRODUCTS = [
     name: "Elyth Cellular Cream",
     brand: "Elyth",
     category: "moisturizer",
-    image: "assets/images/products/mo-4.webp",
+    image: "assets/images/products/mo-4.svg",
     shortDescription: "کرم لوکس ضدپیری با آبرسانی عمیق، مناسب همه انواع پوست",
     fullDescription:
       "محصولی پریمیوم با فرمول تقویت‌کننده سد پوستی که علاوه بر آبرسانی عمیق، به کاهش علائم سنی کمک می‌کند.",
@@ -314,7 +314,7 @@ window.PRODUCTS = [
     name: "Aurelia Daily Fluid",
     brand: "Aurelia",
     category: "moisturizer",
-    image: "assets/images/products/mo-5.webp",
+    image: "assets/images/products/mo-5.svg",
     shortDescription: "فلوئید آبرسان روزانه، مناسب پوست نرمال و مختلط",
     fullDescription:
       "فلوئید سبک برای استفاده روزانه که تعادل رطوبت پوست نرمال و مختلط را حفظ می‌کند، بدون سنگینی.",
@@ -336,7 +336,7 @@ window.PRODUCTS = [
     name: "Repair Hair Shampoo",
     brand: "NovaDerm",
     category: "shampoo",
-    image: "assets/images/products/sh-1.webp",
+    image: "assets/images/products/sh-1.svg",
     shortDescription: "شامپوی ترمیم‌کننده، مخصوص موی رنگ‌شده و آسیب‌دیده",
     fullDescription:
       "فرمول تخصصی برای حفظ ماندگاری رنگ مو و ترمیم موهای آسیب‌دیده در اثر رنگ یا حرارت.",
@@ -356,7 +356,7 @@ window.PRODUCTS = [
     name: "PureBase Daily Balance Shampoo",
     brand: "PureBase",
     category: "shampoo",
-    image: "assets/images/products/sh-2.webp",
+    image: "assets/images/products/sh-2.svg",
     shortDescription: "شامپوی اقتصادی مناسب مصرف روزانه، برای موی معمولی و چرب",
     fullDescription:
       "شامپویی ملایم و مقرون‌به‌صرفه که تعادل چربی پوست سر را حفظ کرده و برای استفاده روزانه مناسب است.",
@@ -376,7 +376,7 @@ window.PRODUCTS = [
     name: "ClarUS Anti-Dandruff Shampoo",
     brand: "ClarUS",
     category: "shampoo",
-    image: "assets/images/products/sh-3.webp",
+    image: "assets/images/products/sh-3.svg",
     shortDescription: "شامپوی تخصصی ضدشوره، مناسب پوست سر چرب و معمولی",
     fullDescription:
       "فرمول تخصصی برای کاهش شوره و کنترل خارش پوست سر، مناسب استفاده منظم.",
@@ -396,7 +396,7 @@ window.PRODUCTS = [
     name: "SkinLab Sulfate-Free Hydrating Shampoo",
     brand: "SkinLab",
     category: "shampoo",
-    image: "assets/images/products/sh-4.webp",
+    image: "assets/images/products/sh-4.svg",
     shortDescription: "شامپوی بدون سولفات، مناسب موی خشک و پوست سر حساس",
     fullDescription:
       "بدون سولفات و ملایم، رطوبت مورد نیاز موی خشک را تامین کرده و برای پوست سر حساس مناسب است.",
@@ -416,7 +416,7 @@ window.PRODUCTS = [
     name: "Elyth Silk Strength Shampoo",
     brand: "Elyth",
     category: "shampoo",
-    image: "assets/images/products/sh-5.webp",
+    image: "assets/images/products/sh-5.svg",
     shortDescription: "شامپوی تقویت‌کننده پریمیوم، مناسب موی آسیب‌دیده و ضعیف",
     fullDescription:
       "محصولی لوکس با کمپلکس تقویت‌کننده کراتین که ساختار مو را تقویت کرده و از ریزش ناشی از شکنندگی جلوگیری می‌کند.",
