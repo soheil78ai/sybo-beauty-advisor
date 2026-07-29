@@ -22,8 +22,8 @@ window.SAIBO_CONFIG = {
   primaryColor: "#2F6F63",   // سبز-آبی حرفه‌ای (تم اصلی)
   secondaryColor: "#C9A55C", // طلایی ملایم (تم مکمل/برجسته‌سازی)
 
-  // مسیر لوگو (کوچک، بالای صفحه)
-  logo: "assets/images/logo/logo.svg",
+  // مسیر لوگو/عکس پروفایل (کوچک، بالای صفحه کنار نام سیستم)
+  logo: "assets/images/logo/profile.webp",
 
   // پیام خوشامدگویی ابتدای گفتگو
   welcomeMessage:
