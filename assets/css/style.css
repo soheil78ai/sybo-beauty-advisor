@@ -80,11 +80,13 @@ img {
 .app-shell {
   max-width: 640px;
   margin: 0 auto;
-  min-height: 100vh;
+  height: 100vh;
+  height: 100dvh;
   display: flex;
   flex-direction: column;
   background: var(--color-bg);
   position: relative;
+  overflow: hidden;
 }
 
 .app-header {
@@ -209,12 +211,14 @@ a:focus-visible {
 
 .chat-log {
   flex: 1;
+  min-height: 0;
   padding: 16px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   overflow-y: auto;
   scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .msg {
@@ -398,7 +402,7 @@ a:focus-visible {
 .product-image-wrap {
   width: 100%;
   aspect-ratio: 4 / 3;
-  background: linear-gradient(160deg, var(--color-primary-light), #ffffff);
+  background: radial-gradient(120% 130% at 50% 30%, #fdf9f3, #f3ede2 65%, #ebe2d3);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -410,7 +414,7 @@ a:focus-visible {
   content: "";
   position: absolute;
   inset: 0;
-  box-shadow: var(--shadow-inset);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.7), inset 0 -14px 26px -18px rgba(70, 55, 35, 0.18);
   pointer-events: none;
 }
 
